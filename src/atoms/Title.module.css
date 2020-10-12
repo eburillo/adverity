@@ -1,0 +1,14 @@
+@value black, dark from '../styles/colors.css';
+
+.title {
+  font-size: 1.25em;
+  font-weight: 400;
+  text-align: center;
+  color: dark;
+}
+
+.subtitle {
+  font-size: 0.75em;
+  font-weight: 700;
+  color: black;
+}

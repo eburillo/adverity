@@ -1,0 +1,35 @@
+@value dark-blue, light-blue, white, brown from '../styles/colors.css';
+
+.sidebar {
+  flex: 1;
+  padding: 1em;
+  background-color: light-blue;
+}
+
+.sidebar-content {
+  display: flex;
+}
+.filters-container {
+  flex: 4;
+  padding-right: 0.5em;
+}
+
+.filter-cta-container {
+  flex: 1;
+  padding-top: 35px;
+}
+
+.filter-cta {
+  background-color: dark-blue;
+  border: 1px solid light-blue;
+  border-radius: 4px;
+  color: white;
+  height: 36px;
+  cursor: pointer;
+}
+.filter-cta:focus {
+  outline: 0;
+}
+.filter-cta:active {
+  background-color: brown;
+}
